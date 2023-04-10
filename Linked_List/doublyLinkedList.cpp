@@ -9,6 +9,7 @@ int main() {
     Node *node3 = new Node(16);
     Node *node4 = new Node(9);
 
+    // Create a new linked list
     DoublyLinkedList *list = new DoublyLinkedList();
     list->insertNode(node1);
     list->insertNode(node2);
@@ -18,15 +19,18 @@ int main() {
     std::cout << "New linked list:\n";
     list->printList();
 
+    // Insert a new node
     Node *node = new Node(25);
     std::cout << "\nInserting node: " << node->key << '\n';
     list->insertNode(node);
     list->printList();
 
+    // Delete a node
     std::cout << "\nDeleting node: " << node2->key << '\n';
     list->deleteNode(node2);
     list->printList();
 
+    // Search for a node
     list->searchNode(16);
     list->searchNode(3);
 

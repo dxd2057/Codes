@@ -3,6 +3,11 @@
 
 #include <iostream>
 
+/**
+ * @brief Node class: a node in a linked list
+ * @details A node is a data structure that contains a value and a pointer to the next node
+ *         and the previous node in the linked list
+*/
 struct Node {
     int key;
     Node *prev;
