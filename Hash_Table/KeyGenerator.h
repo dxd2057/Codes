@@ -1,6 +1,10 @@
 #include <iostream>
 #include <cstring>
 
+/**
+ * @brief Generate a random 5-letter key
+ * @return std::string: the generated key
+*/
 std::string generateKey() {
     std::string key;
     const int length{5};

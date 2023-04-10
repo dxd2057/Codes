@@ -7,9 +7,17 @@
 #include <vector>
 #include <string>
 
+/**
+ * @brief Hash Table class: template of hash table class using a vector of Doubly Linked Lists to store the data
+*/
 class HashTable {
     protected:
         const int size{11};
+        /**
+         * @brief Hash function: takes a key and returns the index of the bucket where the key should be stored
+         * @param key: the key of the student
+         * @return int: the index of the bucket where the key should be stored
+        */
         inline int hashFunction(std::string key) {
             int hash{0};
 
