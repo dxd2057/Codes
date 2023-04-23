@@ -15,3 +15,7 @@ Each position `index` in the hash table will be a doubly linked list. New `key` 
 ### Hash table using linear probing to resolve collision
 
 Only one key will be stored into one index of the table. However, if the number of key is greater than the number of index in the table, overflow will occur.
+
+## Binary Search Tree
+
+A node in a binary search tree consists of a `value`, its children `left` and `right` nodes, and its `parent` node. Each binary search tree contains exactly one node that acts as the root. Operations such as searching, insertion, deletion are performed on a tree.
